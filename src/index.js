@@ -4,6 +4,7 @@ import { options, runFinishTime } from 'helpers'
 import config from 'config/config'
 
 import runSetupTask from './setup-task'
+import runRoutes from './routes'
 import runFinish from './finish'
 import runTaskStatus from './task-status'
 
@@ -19,6 +20,7 @@ export default function runScripts(driver) {
   promise.fulfilled().then(() => {
     flow.execute(() => runSetupTask(driver))
     flow.execute(() => console.log(''), console.log(colors.yellow(`   Starting automated task script...`)))
+    flow.execute(() => runRoutes(driver))
     flow.execute(() => runFinish(driver))
     flow.execute(() => runFinishTime(start))
     flow.execute(() => runTaskStatus())
