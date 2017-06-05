@@ -10,7 +10,6 @@
     "transform-es2015-modules-commonjs",
     ["module-alias", [
       { "src": "./config", "expose": "config" },
-      { "src": "./config/webdriver", "expose": "webdriver-config" },
       { "src": "./helpers", "expose": "helpers" }
     ]]
 
