@@ -8,4 +8,4 @@ All notable changes to this project will be documented in this file.
 
 ### Features
 
-* **initial-release:**  Initial setup of selenium-webdriver-automation ([](https://github.com/josephferris/selenium-webdriver-automation/commit))
+* **initial-release:**  Initial setup of selenium-webdriver-automation ([eec0f9b](https://github.com/josephferris/selenium-webdriver-automation/commit/eec0f9b))
