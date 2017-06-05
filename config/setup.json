@@ -1,0 +1,10 @@
+{
+  "browser": "chrome",
+  "baseUrl": "https://joeyferris.io",
+  "loginUrl": "https://joeyferris.io/login",
+  "email": "joey@joeyferris.io",
+  "password": "",
+  "emailField": "email",
+  "passwordField": "password",
+  "loginButton": "loginButton"
+}

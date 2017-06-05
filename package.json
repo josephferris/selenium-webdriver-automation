@@ -1,0 +1,37 @@
+{
+  "name": "selenium-webdriver-automation",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=qa $(npm bin)/babel-node src",
+    "start:production": "cross-env NODE_ENV=production $(npm bin)/babel-node src",
+    "test": "cross-env NODE_ENV=qa _mocha --compilers js:babel-register --require babel-polyfill -t 600000 --recursive"
+  },
+  "repository": "https://github.com/josephferris/selenium-webdriver-automation.git",
+  "author": "Joey Ferris <joey@joeyferris.io>",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "phantomjs-prebuilt": "2.1.14",
+    "rmdir": "1.2.0",
+    "selenium-webdriver": "3.4.0"
+  },
+  "devDependencies": {
+    "babel-cli": "6.24.1",
+    "babel-core": "6.24.1",
+    "babel-eslint": "7.2.3",
+    "babel-loader": "7.0.0",
+    "babel-plugin-module-alias": "1.6.0",
+    "babel-plugin-module-resolver": "2.7.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "6.24.1",
+    "babel-plugin-transform-runtime": "6.23.0",
+    "babel-preset-env": "1.5.1",
+    "babel-preset-es2015": "6.24.0",
+    "babel-preset-es2016": "6.22.0",
+    "babel-preset-stage-2": "6.22.0",
+    "babel-register": "6.24.1",
+    "colors": "1.1.2",
+    "eslint": "3.19.0",
+    "prepack-webpack-plugin": "1.1.0",
+    "webpack": "2.6.1"
+  }
+}
