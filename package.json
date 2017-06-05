@@ -1,6 +1,7 @@
 {
   "name": "selenium-webdriver-automation",
   "version": "1.0.0",
+  "description": "Automated functionality tests/scripts using Selenium-Webdriver",
   "main": "src/index.js",
   "scripts": {
     "start": "cross-env NODE_ENV=qa $(npm bin)/babel-node src",
